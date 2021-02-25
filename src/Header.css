@@ -1,0 +1,18 @@
+.header {
+    height: 4em;
+    width: 100vw;
+    background-color: black;
+    position: relative;
+}
+
+.HomeBtn {
+    position: absolute;
+    height: 5em;
+    left: 6%;
+    bottom : -2.5em;
+    z-index: 99;
+}
+
+.Homeimg {
+    height: 100%;
+}

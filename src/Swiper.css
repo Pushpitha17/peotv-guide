@@ -1,0 +1,96 @@
+.swiper-container{
+    height: auto;
+    max-height: calc(100%-8em);
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-visuals {
+    background-image:url("./Images/background.jpg");
+    position: relative;
+    height: calc(100%-8em);
+    width: 100vw;
+
+}
+.swiper-instructions{
+    background-color: black;
+    height: 8em;
+    color : white;
+}
+
+.prevBtn{
+    position: absolute;
+    left:6%;
+    height: 4em;
+    bottom: -2em;
+}
+
+.nextBtn {
+    position: absolute;
+    right:6%;
+    height: 4em;
+    bottom: -2em;
+}
+
+.btnImg{
+    height: 100%;
+}
+
+.image-container{
+    height: calc(100%-12em);
+    width:440%;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    align-items: center;
+}
+
+
+.type1-container {
+    width: 100vw;
+    display:flex;
+    height: 100%;
+    align-items: center;
+}
+
+.tv-container-1 {
+    width : 70%;
+}
+
+.remote-container-1{
+    width:30%;
+}
+
+.type2-container {
+    width:100vw;
+    display:flex;
+    height: 100%;
+    align-items: center;
+}
+
+.tv-container-2 {
+    width : 90%;
+}
+
+.type1-tv {
+    width:80%;
+    height:60%;    
+}
+
+.type1-remote{
+    width:80%;
+    margin: 0 auto 0 0;
+}
+
+.type2-tv {
+    width:70%;
+}
+
+.img{
+    width: 90%;
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
