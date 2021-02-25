@@ -27,7 +27,7 @@ function SwiperContainer() {
 	useEffect(() => {
 		console.log(currentSlide)
 		console.log(purchaseMovie[currentSlide])
-		if (currentSlide == purchaseMovie.length - 1) {
+		if (currentSlide === purchaseMovie.length - 1) {
 			setshowNext(false)
 		} else {
 			setshowNext(true)
@@ -61,7 +61,7 @@ function SwiperContainer() {
 					className="image-container"
 					style={{ transform: `translateX(calc(-${currentSlide}*100vw)` }}>
 					{purchaseMovie.map((item, index) => {
-						if (slideTypes[index] == '1') {
+						if (slideTypes[index] === '1') {
 							return (
 								<div className="type1-container">
 									<div className="tv-container-1">
@@ -76,7 +76,7 @@ function SwiperContainer() {
 								</div>
 							)
 						}
-						if (slideTypes[index] == '2') {
+						if (slideTypes[index] === '2') {
 							return (
 								<div className="type2-container">
 									<div className="tv-container-2">
@@ -87,6 +87,7 @@ function SwiperContainer() {
 								</div>
 							)
 						}
+                        return
 					})}
 				</div>
 			</div>
