@@ -1,6 +1,6 @@
 .swiper-container{
     height: auto;
-    max-height: calc(100%-8em);
+    max-height: calc(100%-4em);
     display: flex;
     flex-direction: column;
 }
