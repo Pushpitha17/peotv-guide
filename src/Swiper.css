@@ -1,6 +1,5 @@
 .swiper-container{
-    height: auto;
-    max-height: calc(100vh-4em);
+    height: calc(100% - 4em);
     display: flex;
     flex-direction: column;
 }
@@ -8,9 +7,8 @@
 .swiper-visuals {
     background-image:url("./Images/background.jpg");
     position: relative;
-    height: calc(100%-8em);
+    height: calc(100% - 8em);
     width: 100vw;
-
 }
 .swiper-instructions{
     background-color: black;
@@ -37,7 +35,7 @@
 }
 
 .image-container{
-    height: calc(100%-12em);
+    height: 100%;
     width:440%;
     margin: 0 auto;
     display: flex;
@@ -70,7 +68,8 @@
 }
 
 .tv-container-2 {
-    width : 90%;
+    margin: 0 auto;
+    width : 80%;
 }
 
 .type1-tv {
@@ -84,7 +83,7 @@
 }
 
 .type2-tv {
-    width:70%;
+    width:60%;
 }
 
 .img{
@@ -93,4 +92,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.img-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
 }

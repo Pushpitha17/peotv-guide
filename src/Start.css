@@ -10,5 +10,10 @@
     position: absolute;
     height : 5em;
     top : calc(50% - 2.5em);
-    right : 6%
+    right : 6%;
+    transition: 0.2s;
+}
+
+.Nextimg:hover {
+    transform: scale(1.1);
 }

@@ -1,13 +1,14 @@
 import React from 'react'
 import HomeIng from "../Images/homebtn.png"
 import '../Header.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
 			<div className="header">
-				<div className="HomeBtn">
+				<Link to="/" className="HomeBtn">
 				    <img src={HomeIng} alt="" className="Homeimg" />
-                </div>
+                </Link>
 			</div>
 		)
 }

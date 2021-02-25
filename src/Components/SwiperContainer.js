@@ -80,7 +80,7 @@ function SwiperContainer() {
 							return (
 								<div className="type2-container">
 									<div className="tv-container-2">
-										<div className="img">
+										<div className="img-2">
 											<img src={item.tv} alt="" className="type2-tv" />
 										</div>
 									</div>
