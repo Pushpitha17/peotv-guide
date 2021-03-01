@@ -2,6 +2,7 @@
     height: calc(100% - 4em);
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .swiper-visuals {
@@ -14,20 +15,37 @@
     background-color: black;
     height: 8em;
     color : white;
+    width:440%;
+    display: flex;
+    position: relative;
+}
+.swiper-controls{
+    width:100%;
+    position: absolute;
+    height: 8em;
+    bottom: 0;
+}
+.control-container{
+    position: relative;
+    width: 88%;
+    height: 8em;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 .prevBtn{
     position: absolute;
+    z-index: 199;
     left:6%;
     height: 4em;
-    bottom: -2em;
 }
 
 .nextBtn {
     position: absolute;
+    z-index: 199;
     right:6%;
     height: 4em;
-    bottom: -2em;
 }
 
 .btnImg{
@@ -44,31 +62,51 @@
     align-items: center;
 }
 
+.instructions-container{
+    width: 100vw;
+    height: 100%;
+}
+
+.instructions-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instruction-img{
+    height: 2em;
+}
 
 .type1-container {
     width: 100vw;
     display:flex;
     height: 100%;
-    align-items: center;
 }
 
 .tv-container-1 {
     width : 70%;
+        margin-top: 1.5em;
+
 }
 
 .remote-container-1{
-    width:30%;
+    height: 70%;
+    margin-top: 2em;
 }
 
 .type2-container {
     width:100vw;
     display:flex;
     height: 100%;
-    align-items: center;
 }
 
 .tv-container-2 {
     margin: 0 auto;
+    margin-top: 1.5em;
     width : 80%;
 }
 
@@ -78,7 +116,7 @@
 }
 
 .type1-remote{
-    width:80%;
+    height: 100%;
     margin: 0 auto 0 0;
 }
 
@@ -94,8 +132,5 @@
     justify-content: center;
 }
 .img-2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 70%;
 }

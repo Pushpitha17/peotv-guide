@@ -4,7 +4,7 @@ import LeftArr from '../Images/arrow-left.png'
 import RightArr from '../Images/arrow-right.png'
 import { purchaseMovie } from '../Data/PurchaseMovieInstructions'
 
-function SwiperContainer() {
+function SwiperContainer( {language}) {
 	const [currentSlide, changeSlide] = useState(0)
 	const [showNext, setshowNext] = useState(true)
 	const [slideTypes, setslideTypes] = useState([])
@@ -46,17 +46,6 @@ function SwiperContainer() {
 	return (
 		<div className="swiper-container">
 			<div className="swiper-visuals">
-				{currentSlide ? (
-					<div className="prevBtn" onClick={handlePrev}>
-						<img src={LeftArr} alt="" className="btnImg" />
-					</div>
-				) : null}
-
-				{showNext ? (
-					<div className="nextBtn" onClick={handleNext}>
-						<img src={RightArr} alt="" className="btnImg" />
-					</div>
-				) : null}
 				<div
 					className="image-container"
 					style={{ transform: `translateX(calc(-${currentSlide}*100vw)` }}>
@@ -70,8 +59,7 @@ function SwiperContainer() {
 										</div>
 									</div>
 									<div className="remote-container-1">
-
-											<img src={item.remote} alt="" className="type1-remote" />
+										<img src={item.remote} alt="" className="type1-remote" />
 									</div>
 								</div>
 							)
@@ -87,21 +75,56 @@ function SwiperContainer() {
 								</div>
 							)
 						}
-                        return
+						return
 					})}
 				</div>
 			</div>
-			<div className="swiper-instructions">
-				slide type{slideTypes[currentSlide]}
-				currentSlide{currentSlide}
-                {/* {purchaseMovie.map((item, index) => {
-                    return (
-											<div>
-												<img src={item.instruction} alt="" />
-											</div>
-										)
-                   
-                })} */}
+			<div
+				className="swiper-instructions"
+				style={{ transform: `translateX(calc(-${currentSlide}*100vw)` }}>
+				{purchaseMovie.map((item, index) => {
+					const { instruction } = item
+					return (
+						<div className="instructions-container">
+							<div className="instructions-wrapper">
+								{instruction.image ? (
+									<div>
+										<img
+											src={instruction.image}
+											alt=""
+											className="instruction-img"
+										/>
+									</div>
+								) : null}
+
+								{language === 'english' ? (
+									<div className="instruction-text">{instruction.english}</div>
+								) : null}
+								{language === 'sinhala' ? (
+									<div className="instruction-text">{instruction.sinhala}</div>
+								) : null}
+								{language === 'tamil' ? (
+									<div className="instruction-text">{instruction.tamil}</div>
+								) : null}
+							</div>
+						</div>
+					)
+				})}
+			</div>
+			<div className="swiper-controls">
+				<div className="control-container">
+					{currentSlide ? (
+						<div className="prevBtn" onClick={handlePrev}>
+							<img src={LeftArr} alt="" className="btnImg" />
+						</div>
+					) : null}
+
+					{showNext ? (
+						<div className="nextBtn" onClick={handleNext}>
+							<img src={RightArr} alt="" className="btnImg" />
+						</div>
+					) : null}
+				</div>
 			</div>
 		</div>
 	)

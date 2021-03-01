@@ -3,6 +3,8 @@
     width: 100vw;
     background-color: black;
     position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .HomeBtn {
@@ -20,4 +22,24 @@
 
 .Homeimg {
     height: 100%;
+}
+
+.lang-controls{
+    display: flex;
+    margin-right: 2em;
+    align-items: center;
+}
+
+.lang-btn{
+    color: white;
+    margin-left:1em;
+    padding: 3px 20px;
+    transition: 0.2s;
+    border-radius: 5%;
+}
+
+.lang-btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
