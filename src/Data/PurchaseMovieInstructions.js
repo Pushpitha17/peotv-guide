@@ -22,7 +22,6 @@ import tv_13 from "../Images/tv new/13.png"
 export const purchaseMovie = [
 	{
 		tv: tv_0,
-		remote: Remote_1,
 		instruction: {
 			image: menubtn,
 			english: 'Press menu',
@@ -71,7 +70,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_5,
-		remote: Remote_5,
+		remote: Remote_1,
 		instruction: {
 			image: menubtn,
 			english: 'Press menu',
@@ -81,7 +80,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_6,
-		remote: Remote_3,
+		remote: Remote_1,
 		instruction: {
 			image: menubtn,
 			english: 'Press menu',
@@ -91,7 +90,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_7,
-		remote: Remote_3,
+		remote: Remote_4,
 		instruction: {
 			image: menubtn,
 			english: 'Press menu',
@@ -101,7 +100,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_8,
-		remote: Remote_3,
+		remote: Remote_4,
 		instruction: {
 			image: menubtn,
 			english: 'Press menu',
@@ -111,7 +110,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_9,
-		remote: Remote_3,
+		remote: Remote_4,
 		instruction: {
 			image: menubtn,
 			english: 'Press menu',
@@ -121,7 +120,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_10,
-		remote: Remote_3,
+		remote: Remote_4,
 		instruction: {
 			image: menubtn,
 			english: 'Press menu',
@@ -131,7 +130,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_11,
-		remote: Remote_3,
+		remote: Remote_5,
 		instruction: {
 			image: menubtn,
 			english: 'Press menu',
@@ -141,7 +140,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_12,
-		remote: Remote_3,
+		remote: Remote_4,
 		instruction: {
 			image: menubtn,
 			english: 'Press menu',
