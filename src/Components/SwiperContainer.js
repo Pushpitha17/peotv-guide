@@ -48,15 +48,16 @@ function SwiperContainer( {language}) {
 			<div className="swiper-visuals">
 				<div
 					className="image-container"
-					style={{ transform: `translateX(calc(-${currentSlide}*100vw)` }}>
+					style={{
+						transform: `translateX(calc(-${currentSlide}*100vw)`,
+						width: `${purchaseMovie.length * 100}vw`,
+					}}>
 					{purchaseMovie.map((item, index) => {
 						if (slideTypes[index] === '1') {
 							return (
 								<div className="type1-container">
 									<div className="tv-container-1">
-										<div className="img">
-											<img src={item.tv} alt="" className="type1-tv" />
-										</div>
+										<img src={item.tv} alt="" className="type1-tv" />
 									</div>
 									<div className="remote-container-1">
 										<img src={item.remote} alt="" className="type1-remote" />
@@ -68,9 +69,7 @@ function SwiperContainer( {language}) {
 							return (
 								<div className="type2-container">
 									<div className="tv-container-2">
-										<div className="img-2">
-											<img src={item.tv} alt="" className="type2-tv" />
-										</div>
+										<img src={item.tv} alt="" className="type2-tv" />
 									</div>
 								</div>
 							)
@@ -81,7 +80,10 @@ function SwiperContainer( {language}) {
 			</div>
 			<div
 				className="swiper-instructions"
-				style={{ transform: `translateX(calc(-${currentSlide}*100vw)` }}>
+				style={{
+					transform: `translateX(calc(-${currentSlide}*100vw)`,
+					width: `${purchaseMovie.length * 100}vw`,
+				}}>
 				{purchaseMovie.map((item, index) => {
 					const { instruction } = item
 					return (

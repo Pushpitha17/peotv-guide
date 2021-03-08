@@ -15,7 +15,6 @@
     background-color: black;
     height: 8em;
     color : white;
-    width:440%;
     display: flex;
     position: relative;
 }
@@ -87,50 +86,44 @@
     height: 100%;
 }
 
-.tv-container-1 {
-    width : 70%;
-        margin-top: 1.5em;
-
-}
-
-.remote-container-1{
-    height: 70%;
-    margin-top: 2em;
-}
-
 .type2-container {
     width:100vw;
     display:flex;
     height: 100%;
 }
 
+.tv-container-1 {
+    width: 60%;
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 .tv-container-2 {
     margin: 0 auto;
     margin-top: 1.5em;
     width : 80%;
-}
-
-.type1-tv {
-    width:80%;
-    height:60%;    
-}
-
-.type1-remote{
-    height: 100%;
-    margin: 0 auto 0 0;
-}
-
-.type2-tv {
-    width:60%;
-}
-
-.img{
-    width: 90%;
-    margin: 0 0 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.img-2{
-    height: 70%;
+
+.remote-container-1{
+    width: 30%;
+    margin-top: 2em;
+}
+
+
+.type1-tv {
+    height:80%;
+}
+.type2-tv {
+    height:80%;
+}
+
+.type1-remote{
+    object-fit: cover;
+    height: 90%;
+    width: 100%;
 }
