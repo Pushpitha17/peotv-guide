@@ -159,9 +159,9 @@ export const purchaseMovie = [
 		tv: tv_13,
 		instruction: {
 			image: false,
-			english: 'Press OK again to play the movie',
+			english: 'Enjoy!!',
 			tamil: 'பத்திரிகை மெனு',
-			sinhala: 'චිත්‍රපටය නැරඹීමට OK ඔබන්න',
+			sinhala: 'රසවිඳින්න!!',
 		},
 	},
 ]
