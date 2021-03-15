@@ -47,6 +47,16 @@
     height: 4em;
 }
 
+.prevBtn:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.nextBtn:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
 .btnImg{
     height: 100%;
 }
@@ -74,6 +84,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.instruction-text{
+    font-size: 1.3rem;
 }
 
 .instruction-img{
