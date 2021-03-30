@@ -141,7 +141,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_11,
-		remote: oneBtn,
+		remote: numbers,
 		instruction: {
 			image: false,
 			english: 'Press 111111 as Purchase PIN',
