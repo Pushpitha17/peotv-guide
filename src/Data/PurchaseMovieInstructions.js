@@ -1,8 +1,11 @@
-import Remote_1 from '../Images/remote new/ezgif.com-gif-maker.gif'
-import Remote_2 from '../Images/remote new/ezgif.com-gif-maker (1).gif'
-import Remote_3 from '../Images/remote new/ezgif.com-gif-maker (2).gif'
-import Remote_4 from '../Images/remote new/ezgif.com-gif-maker (3).gif'
-import Remote_5 from '../Images/remote new/ezgif.com-gif-maker (4).gif'
+import downArrow from '../Images/remotes/down_arrow.gif'
+import menu from '../Images/remotes/BrowserPreview_menu button.gif'
+import leftright from '../Images/remotes/BrowserPreview left right arrow key.gif'
+import updown from '../Images/remotes/up_and_down.gif'
+import numbers from '../Images/remotes/BrowserPreview_NUMBERS.gif'
+import ok from '../Images/remotes/BrowserPreview_ok.gif'
+import leftArrow from '../Images/remotes/left_arrow.gif'
+import oneBtn from '../Images/remotes/oneBtn.gif'
 import menubtn from "../Images/Menubtn.png"
 import tv_0 from "../Images/tv new/0.png"
 import tv_1 from "../Images/tv new/1.png"
@@ -22,6 +25,7 @@ import tv_13 from "../Images/tv new/13.png"
 export const purchaseMovie = [
 	{
 		tv: tv_0,
+		remote: menu,
 		instruction: {
 			image: menubtn,
 			english: 'Press the ‘Menu’ button',
@@ -31,7 +35,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_1,
-		remote: Remote_2,
+		remote: leftright,
 		instruction: {
 			image: false,
 			english: 'Select the ‘Movies’ option using the left/right arrow buttons',
@@ -42,7 +46,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_2,
-		remote: Remote_3,
+		remote: ok,
 		instruction: {
 			image: false,
 			english: 'Press ‘OK’',
@@ -53,7 +57,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_3,
-		remote: Remote_4,
+		remote: updown,
 		instruction: {
 			image: false,
 			english:
@@ -75,7 +79,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_5,
-		remote: Remote_1,
+		remote: leftright,
 		instruction: {
 			image: false,
 			english:
@@ -86,7 +90,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_6,
-		remote: Remote_1,
+		remote: ok,
 		instruction: {
 			image: false,
 			english: 'Press ‘OK’',
@@ -97,7 +101,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_7,
-		remote: Remote_4,
+		remote: leftright,
 		instruction: {
 			image: false,
 			english: 'Select the required Movie using the left/right arrow buttons ',
@@ -107,7 +111,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_8,
-		remote: Remote_4,
+		remote: ok,
 		instruction: {
 			image: false,
 			english: 'Press ‘OK',
@@ -117,7 +121,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_9,
-		remote: Remote_4,
+		remote: ok,
 		instruction: {
 			image: false,
 			english: 'Press ‘OK’ again to purchase the Movie',
@@ -127,7 +131,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_10,
-		remote: Remote_4,
+		remote: ok,
 		instruction: {
 			image: false,
 			english: 'Press ‘OK’ once more',
@@ -137,7 +141,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_11,
-		remote: Remote_5,
+		remote: oneBtn,
 		instruction: {
 			image: false,
 			english: 'Press 111111 as Purchase PIN',
@@ -147,7 +151,7 @@ export const purchaseMovie = [
 	},
 	{
 		tv: tv_12,
-		remote: Remote_4,
+		remote: ok,
 		instruction: {
 			image: false,
 			english: 'Press ‘OK’ to confirm',
