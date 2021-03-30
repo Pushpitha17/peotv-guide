@@ -44,17 +44,17 @@ export const purchaseMovie = [
 			sinhala: 'වම සහ දකුණු Arrow keys භාවිතා කර Movies ගොනුව තෝරාගන්න',
 		},
 	},
-	{
-		tv: tv_2,
-		remote: ok,
-		instruction: {
-			image: false,
-			english: 'Press ‘OK’',
-			tamil:
-				'மூவி பட்டியலைக் காண MOVIES விருப்பத்தைத் தேர்ந்தெடுக்க சரி பொத்தானை அழுத்தவும்',
-			sinhala: 'OK ඔබන්න',
-		},
-	},
+	// {
+	// 	tv: tv_2,
+	// 	remote: ok,
+	// 	instruction: {
+	// 		image: false,
+	// 		english: 'Press ‘OK’',
+	// 		tamil:
+	// 			'மூவி பட்டியலைக் காண MOVIES விருப்பத்தைத் தேர்ந்தெடுக்க சரி பொத்தானை அழுத்தவும்',
+	// 		sinhala: 'OK ඔබන්න',
+	// 	},
+	// },
 	{
 		tv: tv_3,
 		remote: updown,
@@ -88,17 +88,17 @@ export const purchaseMovie = [
 			sinhala: 'වම සහ දකුණු Arrow keys භාවිතා කර චිත්‍රපටය තෝරාගන්න',
 		},
 	},
-	{
-		tv: tv_6,
-		remote: ok,
-		instruction: {
-			image: false,
-			english: 'Press ‘OK’',
-			tamil:
-				'போன்ற திரைப்படங்களின் வகைப்படுத்தல்களுக்கு மேல் இடது மெனு வழியாக செல்ல ↑ அல்லது ↓ பொத்தான்களைப் பயன்படுத்தவும்;',
-			sinhala: 'OK ඔබන්න',
-		},
-	},
+	// {
+	// 	tv: tv_6,
+	// 	remote: ok,
+	// 	instruction: {
+	// 		image: false,
+	// 		english: 'Press ‘OK’',
+	// 		tamil:
+	// 			'போன்ற திரைப்படங்களின் வகைப்படுத்தல்களுக்கு மேல் இடது மெனு வழியாக செல்ல ↑ அல்லது ↓ பொத்தான்களைப் பயன்படுத்தவும்;',
+	// 		sinhala: 'OK ඔබන්න',
+	// 	},
+	// },
 	{
 		tv: tv_7,
 		remote: leftright,
