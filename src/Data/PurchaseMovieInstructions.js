@@ -27,7 +27,6 @@ export const purchaseMovie = [
 		tv: tv_0,
 		remote: menu,
 		instruction: {
-			image: menubtn,
 			english: 'Press MENU Button to access Home Menu',
 			tamil: 'அணுக மெனு பொத்தானை அழுத்தவும் முகப்பு மெனு',
 			sinhala: 'ප්‍රධාන මෙනුව වෙත ප්‍රවේශ වීමට MENU බොත්තම ඔබන්න',
@@ -99,11 +98,11 @@ export const purchaseMovie = [
 		instruction: {
 			image: false,
 			english:
-				'Press OK Button to select CLASSIC option to see movies under CLASSIC genre',
+				'Press OK Button to select FAMILY option to see movies under FAMILY genre',
 			tamil:
 				'கிளாசிக் வகையின் கீழ் திரைப்படங்களைக் காண கிளாசிக் விருப்பத்தைத் தேர்ந்தெடுக்க சரி பொத்தானை அழுத்தவும்',
 			sinhala:
-				'CLASSIC (සම්භාව්‍ය) ප්‍රභේදය යටතේ ඇති චිත්‍රපට බැලීමට CLASSIC විකල්පය තේරීමට OK බොත්තම ඔබන්න',
+				'FAMILY (සම්භාව්‍ය) ප්‍රභේදය යටතේ ඇති චිත්‍රපට බැලීමට FAMILY විකල්පය තේරීමට OK බොත්තම ඔබන්න',
 		},
 	},
 
