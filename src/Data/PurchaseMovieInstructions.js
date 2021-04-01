@@ -28,9 +28,9 @@ export const purchaseMovie = [
 		remote: menu,
 		instruction: {
 			image: menubtn,
-			english: 'Press the ‘Menu’ button',
+			english: 'Press MENU Button to access Home Menu',
 			tamil: 'அணுக மெனு பொத்தானை அழுத்தவும் முகப்பு மெனு',
-			sinhala: 'Menu ඔබන්න',
+			sinhala: 'ප්‍රධාන මෙනුව වෙත ප්‍රවේශ වීමට MENU බොත්තම ඔබන්න',
 		},
 	},
 	{
@@ -38,75 +38,72 @@ export const purchaseMovie = [
 		remote: leftright,
 		instruction: {
 			image: false,
-			english: 'Select the ‘Movies’ option using the left/right arrow buttons',
+			english: `Highlighted at the middle of menu items is the currently focused menu item
+			Use < or > buttons to navigate across Main Menu items until MOVIES is highlighted `,
 			tamil:
-				'MOVIES சிறப்பம்சமாக இருக்கும் வரை முதன்மை பட்டி உருப்படிகள் வழியாக செல்ல <அல்லது> பொத்தான்களைப் பயன்படுத்தவும்',
-			sinhala: 'වම සහ දකුණු Arrow keys භාවිතා කර Movies ගොනුව තෝරාගන්න',
+				'மெனு உருப்படிகளின் நடுவில் முன்னிலைப்படுத்தப்பட்டுள்ளது தற்போது கவனம் செலுத்திய மெனு உருப்படி',
+			sinhala: `දැනට අවධානය යොමු වී  ඇති මෙනු අයිතමය ප්‍රධාන මෙනුවේ මැදින් ඉස්මතු වී පෙනේ
+			MOVIES ඉස්මතු වන තෙක් ප්‍රධාන මෙනු අයිතම හරහා සැරිසැරීමට < හෝ > බොත්තම් භාවිතා කරන්න`,
 		},
 	},
-	// {
-	// 	tv: tv_2,
-	// 	remote: ok,
-	// 	instruction: {
-	// 		image: false,
-	// 		english: 'Press ‘OK’',
-	// 		tamil:
-	// 			'மூவி பட்டியலைக் காண MOVIES விருப்பத்தைத் தேர்ந்தெடுக்க சரி பொத்தானை அழுத்தவும்',
-	// 		sinhala: 'OK ඔබන්න',
-	// 	},
-	// },
 	{
 		tv: tv_3,
-		remote: updown,
+		remote: ok,
 		instruction: {
 			image: false,
-			english:
-				'Using the up/down arrow buttons, select the required ‘Language’',
+			english: 'Press OK Button to select MOVIES option to see Movie Catalogue',
 			tamil:
-				'மேல் இடது மெனு மற்றும் மூவி கொணர்வி ஆகியவற்றில் சிறப்பிக்கப்பட்டுள்ள புதிய வருகைகளுடன் திரைப்பட பட்டியல் காட்டப்படும், புதிதாக சேர்க்கப்பட்ட அனைத்து',
-			sinhala: 'ඉහළ සහ පහළ Arrow keys භාවිතා කර Movies ගොනුව තෝරාගන්න',
+				'மூவி பட்டியலைக் காண MOVIES விருப்பத்தைத் தேர்ந்தெடுக்க சரி பொத்தானை அழுத்தவும்',
+			sinhala:
+				'චිත්‍රපට නාමාවලිය බැලීම සඳහා  MOVIES විකල්පය තේරීමට OK බොත්තම ඔබන්න',
 		},
 	},
 	{
 		tv: tv_4,
 		instruction: {
 			image: false,
-			english: `Press ‘OK’`,
-			tamil:
-				'கொணர்விக்கு நடுவில் நீங்கள் விரும்பிய திரைப்படத்தை முன்னிலைப்படுத்த மூவிஸ் கொணர்வி மூலம் உலாவ <அல்லது> பொத்தான்களைப் பயன்படுத்தவும்',
-			sinhala: 'OK ඔබන්න',
+			english: `Please wait…..`,
+			tamil: 'Please wait…..',
+			sinhala: 'Please wait…..',
 		},
 	},
 	{
 		tv: tv_5,
-		remote: leftright,
+		remote: updown,
 		instruction: {
 			image: false,
 			english:
-				'Using the left/right arrow buttons, select the required ‘Genre’',
-			tamil: 'திரைப்படத்தின் சுருக்கத்தைக் காண சரி பொத்தானை அழுத்தவும்',
-			sinhala: 'වම සහ දකුණු Arrow keys භාවිතා කර චිත්‍රපටය තෝරාගන්න',
+				'Use ↑ or ↓ buttons to navigate up or down Top Left Menu until SINHALA is highlighted',
+			tamil:
+				'சின்ஹாலா சிறப்பம்சமாக இருக்கும் வரை மேல் இடது மெனு வழியாக மேலே அல்லது கீழே செல்ல ↑ அல்லது ↓ பொத்தான்களைப் பயன்படுத்தவும்',
+			sinhala:
+				'SINHALA ඉස්මතු වන තුරු ඉහළ වම් මෙනුවේ ඉහළට හෝ පහළට සැරිසැරීමට ↑ හෝ ↓ බොත්තම් භාවිතා කරන්න',
 		},
 	},
-	// {
-	// 	tv: tv_6,
-	// 	remote: ok,
-	// 	instruction: {
-	// 		image: false,
-	// 		english: 'Press ‘OK’',
-	// 		tamil:
-	// 			'போன்ற திரைப்படங்களின் வகைப்படுத்தல்களுக்கு மேல் இடது மெனு வழியாக செல்ல ↑ அல்லது ↓ பொத்தான்களைப் பயன்படுத்தவும்;',
-	// 		sinhala: 'OK ඔබන්න',
-	// 	},
-	// },
+	{
+		tv: tv_6,
+		remote: ok,
+		instruction: {
+			image: false,
+			english:
+				'Press OK Button to select CLASSIC option to see movies under CLASSIC genre',
+			tamil:
+				'கிளாசிக் வகையின் கீழ் திரைப்படங்களைக் காண கிளாசிக் விருப்பத்தைத் தேர்ந்தெடுக்க சரி பொத்தானை அழுத்தவும்',
+			sinhala:
+				'CLASSIC (සම්භාව්‍ය) ප්‍රභේදය යටතේ ඇති චිත්‍රපට බැලීමට CLASSIC විකල්පය තේරීමට OK බොත්තම ඔබන්න',
+		},
+	},
 	{
 		tv: tv_7,
 		remote: leftright,
 		instruction: {
 			image: false,
-			english: 'Select the required Movie using the left/right arrow buttons ',
-			tamil: 'பத்திரிகை மெனு',
-			sinhala: 'වම සහ දකුණු Arrow keys භාවිතා කර චිත්‍රපටය තෝරාගන්න',
+			english:
+				'Use < or > buttons to browse across carousel to highlight your desired movie in the middle of carousel',
+			tamil:
+				'கொணர்விக்கு நடுவில் நீங்கள் விரும்பிய திரைப்படத்தை முன்னிலைப்படுத்த கொணர்வி முழுவதும் உலாவ <அல்லது> பொத்தான்களைப் பயன்படுத்தவும்',
+			sinhala:
+				'කැරූසලය මධ්‍යයේ ඔබ කැමති චිත්‍රපටය ඉස්මතු කිරීමට චිත්‍රපට කැරූසලය හරහා සැරිසැරීමට < හෝ > බොත්තම් භාවිතා කරන්න',
 		},
 	},
 	{
@@ -114,9 +111,11 @@ export const purchaseMovie = [
 		remote: ok,
 		instruction: {
 			image: false,
-			english: 'Press ‘OK',
-			tamil: 'பத்திரிகை மெனு',
-			sinhala: 'OK ඔබන්න',
+			english:
+				'Press OK Button to see the synopsis of the movie highlighted in the carousel ',
+			tamil:
+				'கொணர்வியில் சிறப்பிக்கப்பட்டுள்ள திரைப்படத்தின் சுருக்கத்தைக் காண சரி பொத்தானை அழுத்தவும்',
+			sinhala: 'කැරූසලයේ ඉස්මතු කළ චිත්‍රපටයේ සාරාංශය බැලීමට OK බොත්තම ඔබන්න',
 		},
 	},
 	{
@@ -125,7 +124,7 @@ export const purchaseMovie = [
 		instruction: {
 			image: false,
 			english: 'Press ‘OK’ again to purchase the Movie',
-			tamil: 'பத்திரிகை மெனு',
+			tamil: 'மூவி வாங்க சரி பொத்தானை அழுத்தவும்',
 			sinhala: 'චිත්‍රපටය මිලදී ගැනීමට OK ඔබන්න',
 		},
 	},
@@ -134,9 +133,9 @@ export const purchaseMovie = [
 		remote: ok,
 		instruction: {
 			image: false,
-			english: 'Press ‘OK’ once more',
-			tamil: 'பத்திரிகை மெனு',
-			sinhala: 'නැවත වාරයක් OK ඔබන්න',
+			english: 'Press OK Button again',
+			tamil: 'சரி பொத்தானை மீண்டும் அழுத்தவும்',
+			sinhala: 'නැවත වාරයක් OK බොත්තම ඔබන්න',
 		},
 	},
 	{
@@ -144,9 +143,12 @@ export const purchaseMovie = [
 		remote: numbers,
 		instruction: {
 			image: false,
-			english: 'Press 111111 as Purchase PIN',
-			tamil: 'பத்திரிகை மெனு',
-			sinhala: 'මිලදී ගැනීමේ කේතය ලෙස 11111 ඔබන්න',
+			english: `Press 6 digit Purchase PIN (Default value is “111111”)
+					Press OK Button to confirm`,
+			tamil: `6 இலக்க கொள்முதல் பின்னை அழுத்தவும் (இயல்புநிலை மதிப்பு “111111”)
+			உறுதிப்படுத்த சரி பொத்தானை அழுத்தவும்`,
+			sinhala: `ඉලක්කම් හයේ මිලදී ගැනීමේ රහස් අංකය ඇතුලත් කරන්න
+						තහවුරු කිරීමට OK බොත්තම ඔබන්න	`,
 		},
 	},
 	{
@@ -154,9 +156,9 @@ export const purchaseMovie = [
 		remote: ok,
 		instruction: {
 			image: false,
-			english: 'Press ‘OK’ to confirm',
-			tamil: 'பத்திரிகை மெனு',
-			sinhala: 'OK ඔබන්න',
+			english: 'Press OK Button to play the movie',
+			tamil: 'திரைப்படத்தை இயக்க சரி பொத்தானை அழுத்தவும்',
+			sinhala: 'චිත්‍රපටය නැරඹීමට OK බොත්තම ඔබන්න',
 		},
 	},
 	{
