@@ -81,19 +81,6 @@ export const purchaseMovie = [
 		},
 	},
 	{
-		tv: tv_6,
-		remote: ok,
-		instruction: {
-			image: false,
-			english:
-				'Press OK Button to select CLASSIC option to see movies under CLASSIC genre',
-			tamil:
-				'கிளாசிக் வகையின் கீழ் திரைப்படங்களைக் காண கிளாசிக் விருப்பத்தைத் தேர்ந்தெடுக்க சரி பொத்தானை அழுத்தவும்',
-			sinhala:
-				'CLASSIC (සම්භාව්‍ය) ප්‍රභේදය යටතේ ඇති චිත්‍රපට බැලීමට CLASSIC විකල්පය තේරීමට OK බොත්තම ඔබන්න',
-		},
-	},
-	{
 		tv: tv_7,
 		remote: leftright,
 		instruction: {
@@ -106,6 +93,20 @@ export const purchaseMovie = [
 				'කැරූසලය මධ්‍යයේ ඔබ කැමති චිත්‍රපටය ඉස්මතු කිරීමට චිත්‍රපට කැරූසලය හරහා සැරිසැරීමට < හෝ > බොත්තම් භාවිතා කරන්න',
 		},
 	},
+	{
+		tv: tv_7,
+		remote: ok,
+		instruction: {
+			image: false,
+			english:
+				'Press OK Button to select CLASSIC option to see movies under CLASSIC genre',
+			tamil:
+				'கிளாசிக் வகையின் கீழ் திரைப்படங்களைக் காண கிளாசிக் விருப்பத்தைத் தேர்ந்தெடுக்க சரி பொத்தானை அழுத்தவும்',
+			sinhala:
+				'CLASSIC (සම්භාව්‍ය) ප්‍රභේදය යටතේ ඇති චිත්‍රපට බැලීමට CLASSIC විකල්පය තේරීමට OK බොත්තම ඔබන්න',
+		},
+	},
+
 	{
 		tv: tv_8,
 		remote: ok,
