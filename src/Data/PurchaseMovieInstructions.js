@@ -37,11 +37,10 @@ export const purchaseMovie = [
 		remote: leftright,
 		instruction: {
 			image: false,
-			english: `Highlighted at the middle of menu items is the currently focused menu item
-			Use < or > buttons to navigate across Main Menu items until MOVIES is highlighted. `,
+			english: "Highlighted at the middle of menu items is the currently focused. \n Menu item Use < or > buttons to navigate across Main Menu items until MOVIES is highlighted.",
 			tamil:
 				'மெனு உருப்படிகளின் நடுவில் முன்னிலைப்படுத்தப்பட்டுள்ளது தற்போது கவனம் செலுத்திய மெனு உருப்படி.',
-			sinhala: `දැනට අවධානය යොමු වී  ඇති මෙනු අයිතමය ප්‍රධාන මෙනුවේ මැදින් ඉස්මතු වී පෙනේ
+			sinhala: `දැනට අවධානය යොමු වී  ඇති මෙනු අයිතමය ප්‍රධාන මෙනුවේ මැදින් ඉස්මතු වී පෙනේ.
 			MOVIES ඉස්මතු වන තෙක් ප්‍රධාන මෙනු අයිතම හරහා සැරිසැරීමට < හෝ > බොත්තම් භාවිතා කරන්න.`,
 		},
 	},
