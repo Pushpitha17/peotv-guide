@@ -11,7 +11,7 @@ import tv_0 from "../Images/tv new/0.png"
 import tv_1 from "../Images/tv new/1.png"
 import tv_2 from "../Images/tv new/2.png"
 import tv_3 from "../Images/tv new/3.png"
-import tv_4 from "../Images/tv new/4.png"
+import tv_4 from "../Images/tv new/5 new.png"
 import tv_5 from "../Images/tv new/5.png"
 import tv_6 from "../Images/tv new/6.png"
 import tv_7 from "../Images/tv new/7.png"
@@ -37,7 +37,8 @@ export const purchaseMovie = [
 		remote: leftright,
 		instruction: {
 			image: false,
-			english: "Highlighted at the middle of menu items is the currently focused. \n Menu item Use < or > buttons to navigate across Main Menu items until MOVIES is highlighted.",
+			english:
+				'Highlighted at the middle of menu items is the currently focused. \n Menu item Use < or > buttons to navigate across Main Menu items until MOVIES is highlighted.',
 			tamil:
 				'மெனு உருப்படிகளின் நடுவில் முன்னிலைப்படுத்தப்பட்டுள்ளது தற்போது கவனம் செலுத்திய மெனு உருப்படி.',
 			sinhala: `දැනට අවධානය යොමු වී  ඇති මෙනු අයිතමය ප්‍රධාන මෙනුවේ මැදින් ඉස්මතු වී පෙනේ.
@@ -49,22 +50,25 @@ export const purchaseMovie = [
 		remote: ok,
 		instruction: {
 			image: false,
-			english: 'Press OK Button to select MOVIES option to see Movie Catalogue.',
+			english:
+				'Press OK Button to select MOVIES option to see Movie Catalogue.',
 			tamil:
 				'மூவி பட்டியலைக் காண MOVIES விருப்பத்தைத் தேர்ந்தெடுக்க சரி பொத்தானை அழுத்தவும்.',
 			sinhala:
 				'චිත්‍රපට නාමාවලිය බැලීම සඳහා  MOVIES විකල්පය තේරීමට OK බොත්තම ඔබන්න.',
 		},
 	},
-	// {
-	// 	tv: tv_4,
-	// 	instruction: {
-	// 		image: false,
-	// 		english: `Please wait…..`,
-	// 		tamil: 'Please wait…..',
-	// 		sinhala: 'Please wait…..',
-	// 	},
-	// },
+	{
+		tv: tv_4,
+		instruction: {
+			image: false,
+			english: `Movie Catalogue is displayed with New Arrivals highlighted in the Top Left Menu and Movies Carousel at the middle showing all the newly added movies as movie posters`,
+			tamil:
+				'மேல் இடது மெனு மற்றும் மூவி கொணர்வி ஆகியவற்றில் சிறப்பிக்கப்பட்டுள்ள புதிய வருகைகளுடன் திரைப்பட பட்டியல் காட்டப்படும், புதிதாக சேர்க்கப்பட்ட அனைத்து திரைப்படங்களையும் திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது',
+			sinhala:
+				'ඉහළ වම් මෙනුවෙහි New Arrivals ඉස්මතු කරමින් චිත්‍රපට නාමාවලිය ප්‍රදර්ශනය කෙරෙන අතර මැදින් චිත්‍රපට කැරූසල් (Movies Carousel) අලුතින් එකතු කරන ලද සියලුම චිත්‍රපට චිත්‍රපට පෝස්ටර් ලෙස පෙන්වය',
+		},
+	},
 	{
 		tv: tv_5,
 		remote: updown,
