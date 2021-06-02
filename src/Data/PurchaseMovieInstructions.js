@@ -13,6 +13,9 @@ import tv_2 from "../Images/tv new/2.png"
 import tv_3 from "../Images/tv new/3.png"
 import tv_4 from "../Images/tv new/5 new.png"
 import tv_5 from "../Images/tv new/5.png"
+import tv_5_71 from "../Images/tv new/5 from 7_1.png"
+import tv_5_2_71 from "../Images/tv new/5_2 from 7_1.png"
+import tv_9_71 from "../Images/tv new/9 from 7_1.png"
 import tv_6 from "../Images/tv new/6.png"
 import tv_7 from "../Images/tv new/7.png"
 import tv_8 from "../Images/tv new/8.png"
@@ -59,14 +62,25 @@ export const purchaseMovie = [
 		},
 	},
 	{
-		tv: tv_4,
+		tv: tv_5_71,
 		instruction: {
 			image: false,
-			english: `Movie Catalogue is displayed with New Arrivals highlighted in the Top Left Menu and Movies Carousel at the middle showing all the newly added movies as movie posters`,
+			english: `Movie Catalogue is displayed with NEW ARRIVALS highlighted in the Top Left Menu and Movies Carousel below showing newly added movies as movie posters`,
 			tamil:
 				'மேல் இடது மெனு மற்றும் மூவி கொணர்வி ஆகியவற்றில் சிறப்பிக்கப்பட்டுள்ள புதிய வருகைகளுடன் திரைப்பட பட்டியல் காட்டப்படும், புதிதாக சேர்க்கப்பட்ட அனைத்து திரைப்படங்களையும் திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது',
 			sinhala:
-				'ඉහළ වම් මෙනුවෙහි New Arrivals ඉස්මතු කරමින් චිත්‍රපට නාමාවලිය ප්‍රදර්ශනය කෙරෙන අතර මැදින් චිත්‍රපට කැරූසල් (Movies Carousel) අලුතින් එකතු කරන ලද සියලුම චිත්‍රපට චිත්‍රපට පෝස්ටර් ලෙස පෙන්වය',
+				'ඉහළ වම් මෙනුවෙහි NEW ARRIVALS ඉස්මතු කරමින් චිත්‍රපට නාමාවලිය ප්‍රදර්ශනය කෙරෙන අතර පහලින් කැරූසලයේ (Carousel) අලුතින් එකතු කරන ලද චිත්‍රපට චිත්‍රපට පෝස්ටර් ලෙස පෙන්වයි',
+		},
+	},
+	{
+		tv: tv_5_2_71,
+		instruction: {
+			image: false,
+			english: `Movie Description Window on the Top Right Corner shows brief description of the highlighted movie`,
+			tamil:
+				'மேல் இடது மெனு மற்றும் மூவி கொணர்வி ஆகியவற்றில் சிறப்பிக்கப்பட்டுள்ள புதிய வருகைகளுடன் திரைப்பட பட்டியல் காட்டப்படும், புதிதாக சேர்க்கப்பட்ட அனைத்து திரைப்படங்களையும் திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது',
+			sinhala:
+				'ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් පෙන්වයි',
 		},
 	},
 	{
@@ -88,11 +102,11 @@ export const purchaseMovie = [
 		instruction: {
 			image: false,
 			english:
-				'Use < or > buttons to browse across carousel to highlight your desired movie in the middle of carousel.',
+				'Movie Catalogue is displayed with SINHALA highlighted in the Top Left Menu and carousel below showing list of genres such as FAMILY, COMEDY, CLASSIC etc. as further categories of Sinhala Language movies based on movie genres.Use < or > buttons to browse across carousel to highlight your desired movie in the middle of carousel.',
 			tamil:
-				'கொணர்விக்கு நடுவில் நீங்கள் விரும்பிய திரைப்படத்தை முன்னிலைப்படுத்த கொணர்வி முழுவதும் உலாவ <அல்லது> பொத்தான்களைப் பயன்படுத்தவும்.',
+				'மூவி வகைகளை அடிப்படையாகக் கொண்ட சிங்கள மொழி திரைப்படங்களின் மேலும் வகைகளாக FAMILY, COMEDY, CLASSIC போன்ற வகைகளின் பட்டியலைக் காட்டும் மேல் இடது மெனுவில் சிறப்பிக்கப்பட்ட சின்ஹாலா மற்றும் கொணர்வி மூலம் திரைப்பட பட்டியல் காட்டப்படும்.கொணர்விக்கு நடுவில் நீங்கள் விரும்பிய திரைப்படத்தை முன்னிலைப்படுத்த கொணர்வி முழுவதும் உலாவ <அல்லது> பொத்தான்களைப் பயன்படுத்தவும்.',
 			sinhala:
-				'කැරූසලය මධ්‍යයේ ඔබ කැමති චිත්‍රපටය ඉස්මතු කිරීමට චිත්‍රපට කැරූසලය හරහා සැරිසැරීමට < හෝ > බොත්තම් භාවිතා කරන්න.',
+				'ඉහළ වම් මෙනුවේ SINHALA ඉස්මතු වූ විට, ප්‍රභේද මත පදනම්ව සිංහල භාෂා චිත්‍රපට තවදුරටත් වර්ගීකරණය කිරීම සඳහා FAMILY, COMEDY, CLASSIC (පවුල, ප්‍රහසන, සම්භාව්‍ය) වැනි ප්‍රභේද ලැයිස්තුවක් පහත කැරූසලයේ ප්‍රදර්ශනය කෙරේ.කැරූසලය මධ්‍යයේ ඔබ කැමති චිත්‍රපටය ඉස්මතු කිරීමට චිත්‍රපට කැරූසලය හරහා සැරිසැරීමට < හෝ > බොත්තම් භාවිතා කරන්න.',
 		},
 	},
 	{
@@ -111,6 +125,31 @@ export const purchaseMovie = [
 
 	{
 		tv: tv_8,
+		instruction: {
+			image: false,
+			english:
+				'Movie Catalogue is displayed with CLASSIC highlighted in the Top Left Menu and carousel below showing movies under CLASSIC genre as movie posters Movie Description Window on the Top Right Corner shows brief description of the movie highlighted in the carousel',
+			tamil:
+				'மேல் இடது மெனுவில் சிறப்பிக்கப்பட்ட கிளாசிக் மற்றும் கீழே கொணர்வி மூலம் மூவி பட்டியல் காட்டப்படும், கிளாசிக் வகையின் கீழ் திரைப்படங்களை திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது மேல் வலது மூலையில் உள்ள திரைப்பட விவரம் சாளரம் கொணர்வியில் சிறப்பிக்கப்பட்ட திரைப்படத்தின் சுருக்கமான விளக்கத்தைக் காட்டுகிறது',
+			sinhala:
+				'ඉහළ වම් මෙනුවෙහි CLASSIC ඉස්මතු කරමින් චිත්‍රපට නාමාවලිය ප්‍රදර්ශනය කෙරෙන අතර පහලින් කැරූසලයේ CLASSIC (සම්භාව්‍ය) ප්‍රභේදය යටතේ ඇති චිත්‍රපට චිත්‍රපට පෝස්ටර් ලෙස පෙන්වයි කැරූසලයේ ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව පෙන්වයි',
+		},
+	},
+	{
+		tv: tv_8,
+		remote: leftright,
+		instruction: {
+			image: false,
+			english:
+				'Use < or > buttons to browse across carousel to highlight your desired movie in the middle of carousel ',
+			tamil:
+				'கொணர்விக்கு நடுவில் நீங்கள் விரும்பிய திரைப்படத்தை முன்னிலைப்படுத்த கொணர்வி முழுவதும் உலாவ <அல்லது> பொத்தான்களைப் பயன்படுத்தவும்',
+			sinhala:
+				'කැරූසලය මධ්‍යයේ ඔබ කැමති චිත්‍රපටය ඉස්මතු කිරීමට චිත්‍රපට කැරූසලය හරහා සැරිසැරීමට < හෝ > බොත්තම් භාවිතා කරන්න',
+		},
+	},
+	{
+		tv: tv_8,
 		remote: ok,
 		instruction: {
 			image: false,
@@ -119,6 +158,16 @@ export const purchaseMovie = [
 			tamil:
 				'கொணர்வியில் சிறப்பிக்கப்பட்டுள்ள திரைப்படத்தின் சுருக்கத்தைக் காண சரி பொத்தானை அழுத்தவும்.',
 			sinhala: 'කැරූසලයේ ඉස්මතු කළ චිත්‍රපටයේ සාරාංශය බැලීමට OK බොත්තම ඔබන්න.',
+		},
+	},
+	{
+		tv: tv_9_71,
+		remote: ok,
+		instruction: {
+			image: false,
+			english: 'Movie Description Window on the Top Right Corner shows brief description of the highlighted movie and synopsis of the movie is displayed in the bottom right Movie Rental Price and Rental Period is shown in the Top Right Corner',
+			tamil: 'மேல் வலது மூலையில் உள்ள திரைப்பட விவரம் சாளரம் சிறப்பம்சமாகக் காட்டப்பட்ட திரைப்படத்தின் சுருக்கமான விளக்கத்தைக் காட்டுகிறது திரைப்பட வாடகை விலை மற்றும் வாடகை காலம் மேல் வலது மூலையில் காட்டப்பட்டுள்ளது',
+			sinhala: 'ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව පෙන්වන අතර චිත්‍රපටයේ සාරාංශය පහල දකුණු කෙළවරේ පෙන්වයි චිත්‍රපටයේ මිල සහ නැරඹීමට ඇති කාල සීමාව ඉහළ දකුණු කෙළවරේ දක්වා ඇත.',
 		},
 	},
 	{
