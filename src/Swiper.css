@@ -1,143 +1,142 @@
-.swiper-container{
-    height: calc(100% - 4em);
-    display: flex;
-    flex-direction: column;
-    position: relative;
+.swiper-container {
+	height: calc(100% - 4em);
+	display: flex;
+	flex-direction: column;
+	position: relative;
 }
 
 .swiper-visuals {
-    background-image:url("./Images/background.jpg");
-    position: relative;
-    height: calc(100% - 8em);
-    width: 100vw;
+	background-image: url('./Images/background.jpg');
+	position: relative;
+	height: calc(100% - 10em);
+	width: 100vw;
 }
-.swiper-instructions{
-    background-color: black;
-    height: 8em;
-    color : white;
-    display: flex;
-    position: relative;
+.swiper-instructions {
+	background-color: black;
+	height: 10em;
+	color: white;
+	display: flex;
+	position: relative;
 }
-.swiper-controls{
-    width:100%;
-    position: absolute;
-    height: 8em;
-    bottom: 0;
+.swiper-controls {
+	width: 100%;
+	position: absolute;
+	height: 8em;
+	bottom: 0;
 }
-.control-container{
-    position: relative;
-    width: 88%;
-    height: 8em;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
+.control-container {
+	position: relative;
+	width: 88%;
+	height: 8em;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
 }
 
-.prevBtn{
-    position: absolute;
-    z-index: 199;
-    left:6%;
-    height: 4em;
+.prevBtn {
+	position: absolute;
+	z-index: 199;
+	left: 6%;
+	height: 4em;
 }
 
 .nextBtn {
-    position: absolute;
-    z-index: 199;
-    right:6%;
-    height: 4em;
+	position: absolute;
+	z-index: 199;
+	right: 6%;
+	height: 4em;
 }
 
 .prevBtn:hover {
-    transform: scale(1.1);
-    transition: 0.2s;
+	transform: scale(1.1);
+	transition: 0.2s;
 }
 
 .nextBtn:hover {
-    transform: scale(1.1);
-    transition: 0.2s;
+	transform: scale(1.1);
+	transition: 0.2s;
 }
 
-.btnImg{
-    height: 100%;
+.btnImg {
+	height: 100%;
 }
 
-.image-container{
-    height: 100%;
-    width:440%;
-    margin: 0 auto;
-    display: flex;
-    overflow: hidden;
-    transition: 0.3s ease-in-out;
-    align-items: center;
+.image-container {
+	height: 100%;
+	width: 440%;
+	margin: 0 auto;
+	display: flex;
+	overflow: hidden;
+	transition: 0.3s ease-in-out;
+	align-items: center;
 }
 
-.instructions-container{
-    width: 100vw;
-    height: 100%;
+.instructions-container {
+	width: 100vw;
+	height: 100%;
 }
 
-.instructions-wrapper{
-    width: 60%;
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.instructions-wrapper {
+	width: 60%;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.instruction-text{
-    font-size: 1.5rem;
+.instruction-text {
+	font-size: 1.5rem;
 }
 
-.instruction-img{
-    height: 2em;
+.instruction-img {
+	height: 2em;
 }
 
 .type1-container {
-    width: 100vw;
-    display:flex;
-    height: 100%;
+	width: 100vw;
+	display: flex;
+	height: 100%;
 }
 
 .type2-container {
-    width:100vw;
-    display:flex;
-    height: 100%;
+	width: 100vw;
+	display: flex;
+	height: 100%;
 }
 
 .tv-container-1 {
-    width: 65%;
-    margin-top: 1.5em;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+	width: 65%;
+	margin-top: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 
 .tv-container-2 {
-    margin: 0 auto;
-    margin-top: 1.5em;
-    width : 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	margin: 0 auto;
+	margin-top: 1.5em;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.remote-container-1{
-    width: 30%;
-    margin-top: 2em;
+.remote-container-1 {
+	width: 30%;
+	margin-top: 2em;
 }
-
 
 .type1-tv {
-    height:80%;
+	height: 80%;
 }
 .type2-tv {
-    height:80%;
+	height: 80%;
 }
 
-.type1-remote{
-    object-fit: cover;
-    height: 90%;
-    width: 100%;
+.type1-remote {
+	object-fit: cover;
+	height: 90%;
+	width: 100%;
 }
