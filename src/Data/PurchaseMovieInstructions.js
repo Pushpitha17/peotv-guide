@@ -128,7 +128,7 @@ export const purchaseMovie = [
 		instruction: {
 			image: false,
 			english:
-				'Movie Catalogue is displayed with FAMILY highlighted in the Top Left Menu and carousel below showing movies under FAMILY genre as movie posters Movie Description Window on the Top Right Corner shows brief description of the movie highlighted in the carousel',
+				'Movie Catalogue is displayed with FAMILY highlighted in the Top Left Menu and carousel below showing movies under FAMILY genre. Movie Description Window on the Top Right Corner shows brief description of the movie highlighted in the carousel',
 			tamil:
 				'மேல் இடது மெனுவில் சிறப்பிக்கப்பட்ட கிளாசிக் மற்றும் கீழே கொணர்வி மூலம் மூவி பட்டியல் காட்டப்படும், கிளாசிக் வகையின் கீழ் திரைப்படங்களை திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது மேல் வலது மூலையில் உள்ள திரைப்பட விவரம் சாளரம் கொணர்வியில் சிறப்பிக்கப்பட்ட திரைப்படத்தின் சுருக்கமான விளக்கத்தைக் காட்டுகிறது',
 			sinhala:
