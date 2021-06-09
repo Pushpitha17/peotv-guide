@@ -65,7 +65,7 @@ export const purchaseMovie = [
 		tv: tv_5_71,
 		instruction: {
 			image: false,
-			english: `Movie Catalogue is displayed with NEW ARRIVALS highlighted in the Top Left Menu and Movies Carousel below showing newly added movies as movie posters`,
+			english: `MOVIE CATALOGUE is displayed with NEW ARRIVALS highlighted in the TOP LEFT MENU and MOVIES CAROUSEL below showing newly added movies as movie posters`,
 			tamil:
 				'மேல் இடது மெனு மற்றும் மூவி கொணர்வி ஆகியவற்றில் சிறப்பிக்கப்பட்டுள்ள புதிய வருகைகளுடன் திரைப்பட பட்டியல் காட்டப்படும், புதிதாக சேர்க்கப்பட்ட அனைத்து திரைப்படங்களையும் திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது',
 			sinhala:
@@ -76,7 +76,7 @@ export const purchaseMovie = [
 		tv: tv_5_2_71,
 		instruction: {
 			image: false,
-			english: `Movie Description Window on the Top Right Corner shows brief description of the highlighted movie`,
+			english: `MOVIE DESCRIPTION WINDOW on the Top Right Corner shows brief description of the highlighted movie`,
 			tamil:
 				'மேல் இடது மெனு மற்றும் மூவி கொணர்வி ஆகியவற்றில் சிறப்பிக்கப்பட்டுள்ள புதிய வருகைகளுடன் திரைப்பட பட்டியல் காட்டப்படும், புதிதாக சேர்க்கப்பட்ட அனைத்து திரைப்படங்களையும் திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது',
 			sinhala:
@@ -89,7 +89,7 @@ export const purchaseMovie = [
 		instruction: {
 			image: false,
 			english:
-				'Use ↑ or ↓ buttons to navigate up or down Top Left Menu until SINHALA is highlighted.',
+				'Use ↑ or ↓ buttons to navigate up or down TOP LEFT MENU until SINHALA is highlighted.',
 			tamil:
 				'சின்ஹாலா சிறப்பம்சமாக இருக்கும் வரை மேல் இடது மெனு வழியாக மேலே அல்லது கீழே செல்ல ↑ அல்லது ↓ பொத்தான்களைப் பயன்படுத்தவும்.',
 			sinhala:
@@ -165,9 +165,12 @@ export const purchaseMovie = [
 		remote: ok,
 		instruction: {
 			image: false,
-			english: 'Movie Description Window on the Top Right Corner shows brief description of the highlighted movie and synopsis of the movie is displayed in the bottom right Movie Rental Price and Rental Period is shown in the Top Right Corner',
-			tamil: 'மேல் வலது மூலையில் உள்ள திரைப்பட விவரம் சாளரம் சிறப்பம்சமாகக் காட்டப்பட்ட திரைப்படத்தின் சுருக்கமான விளக்கத்தைக் காட்டுகிறது திரைப்பட வாடகை விலை மற்றும் வாடகை காலம் மேல் வலது மூலையில் காட்டப்பட்டுள்ளது',
-			sinhala: 'ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව පෙන්වන අතර චිත්‍රපටයේ සාරාංශය පහල දකුණු කෙළවරේ පෙන්වයි චිත්‍රපටයේ මිල සහ නැරඹීමට ඇති කාල සීමාව ඉහළ දකුණු කෙළවරේ දක්වා ඇත.',
+			english:
+				'Synopsis of the highlighted movie is displayed in the bottom right MOVIE DESCRIPTION WINDOW on the Top Right Corner shows brief description of the movie, Rental Price and Rental Period',
+			tamil:
+				'மேல் வலது மூலையில் உள்ள திரைப்பட விவரம் சாளரம் சிறப்பம்சமாகக் காட்டப்பட்ட திரைப்படத்தின் சுருக்கமான விளக்கத்தைக் காட்டுகிறது திரைப்பட வாடகை விலை மற்றும் வாடகை காலம் மேல் வலது மூலையில் காட்டப்பட்டுள்ளது',
+			sinhala:
+				'ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව පෙන්වන අතර චිත්‍රපටයේ සාරාංශය පහල දකුණු කෙළවරේ පෙන්වයි චිත්‍රපටයේ මිල සහ නැරඹීමට ඇති කාල සීමාව ඉහළ දකුණු කෙළවරේ දක්වා ඇත.',
 		},
 	},
 	{
@@ -185,7 +188,7 @@ export const purchaseMovie = [
 		remote: ok,
 		instruction: {
 			image: false,
-			english: 'Press OK Button again.',
+			english: 'Movie Rental Price and Rental Period is shown.',
 			tamil: 'சரி பொத்தானை மீண்டும் அழுத்தவும்.',
 			sinhala: 'නැවත වාරයක් OK බොත්තම ඔබන්න.',
 		},
