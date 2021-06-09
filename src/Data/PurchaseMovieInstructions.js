@@ -65,7 +65,7 @@ export const purchaseMovie = [
 		tv: tv_5_71,
 		instruction: {
 			image: false,
-			english: `MOVIE CATALOGUE is displayed with NEW ARRIVALS highlighted in the TOP LEFT MENU and MOVIES CAROUSEL below showing newly added movies as movie posters`,
+			english: `Movie Catelogue is displayed with NEW ARRIVALS highlighted in the TOP LEFT MENU and MOVIES CAROUSEL below showing newly added movies as movie posters`,
 			tamil:
 				'மேல் இடது மெனு மற்றும் மூவி கொணர்வி ஆகியவற்றில் சிறப்பிக்கப்பட்டுள்ள புதிய வருகைகளுடன் திரைப்பட பட்டியல் காட்டப்படும், புதிதாக சேர்க்கப்பட்ட அனைத்து திரைப்படங்களையும் திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது',
 			sinhala:
@@ -76,7 +76,7 @@ export const purchaseMovie = [
 		tv: tv_5_2_71,
 		instruction: {
 			image: false,
-			english: `MOVIE DESCRIPTION WINDOW on the Top Right Corner shows brief description of the highlighted movie`,
+			english: `MOVIE DESCRIPTION window on the Top Right Corner shows brief description of the highlighted movie`,
 			tamil:
 				'மேல் இடது மெனு மற்றும் மூவி கொணர்வி ஆகியவற்றில் சிறப்பிக்கப்பட்டுள்ள புதிய வருகைகளுடன் திரைப்பட பட்டியல் காட்டப்படும், புதிதாக சேர்க்கப்பட்ட அனைத்து திரைப்படங்களையும் திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது',
 			sinhala:
@@ -128,11 +128,11 @@ export const purchaseMovie = [
 		instruction: {
 			image: false,
 			english:
-				'Movie Catalogue is displayed with CLASSIC highlighted in the Top Left Menu and carousel below showing movies under CLASSIC genre as movie posters Movie Description Window on the Top Right Corner shows brief description of the movie highlighted in the carousel',
+				'Movie Catalogue is displayed with FAMILY highlighted in the Top Left Menu and carousel below showing movies under FAMILY genre as movie posters Movie Description Window on the Top Right Corner shows brief description of the movie highlighted in the carousel',
 			tamil:
 				'மேல் இடது மெனுவில் சிறப்பிக்கப்பட்ட கிளாசிக் மற்றும் கீழே கொணர்வி மூலம் மூவி பட்டியல் காட்டப்படும், கிளாசிக் வகையின் கீழ் திரைப்படங்களை திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது மேல் வலது மூலையில் உள்ள திரைப்பட விவரம் சாளரம் கொணர்வியில் சிறப்பிக்கப்பட்ட திரைப்படத்தின் சுருக்கமான விளக்கத்தைக் காட்டுகிறது',
 			sinhala:
-				'ඉහළ වම් මෙනුවෙහි CLASSIC ඉස්මතු කරමින් චිත්‍රපට නාමාවලිය ප්‍රදර්ශනය කෙරෙන අතර පහලින් කැරූසලයේ CLASSIC (සම්භාව්‍ය) ප්‍රභේදය යටතේ ඇති චිත්‍රපට චිත්‍රපට පෝස්ටර් ලෙස පෙන්වයි කැරූසලයේ ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව පෙන්වයි',
+				'ඉහළ වම් මෙනුවෙහි FAMILY ඉස්මතු කරමින් චිත්‍රපට නාමාවලිය ප්‍රදර්ශනය කෙරෙන අතර පහලින් කැරූසලයේ FAMILY  ප්‍රභේදය යටතේ ඇති චිත්‍රපට චිත්‍රපට පෝස්ටර් ලෙස පෙන්වයි කැරූසලයේ ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව පෙන්වයි',
 		},
 	},
 	{
@@ -166,7 +166,7 @@ export const purchaseMovie = [
 		instruction: {
 			image: false,
 			english:
-				'Synopsis of the highlighted movie is displayed in the bottom right MOVIE DESCRIPTION WINDOW on the Top Right Corner shows brief description of the movie, Rental Price and Rental Period',
+				'SYNOPSIS of the highlighted movie is displayed in the bottom right MOVIE DESCRIPTION WINDOW on the Top Right Corner shows brief description of the movie, Rental Price and Rental Period',
 			tamil:
 				'மேல் வலது மூலையில் உள்ள திரைப்பட விவரம் சாளரம் சிறப்பம்சமாகக் காட்டப்பட்ட திரைப்படத்தின் சுருக்கமான விளக்கத்தைக் காட்டுகிறது திரைப்பட வாடகை விலை மற்றும் வாடகை காலம் மேல் வலது மூலையில் காட்டப்பட்டுள்ளது',
 			sinhala:
@@ -188,7 +188,8 @@ export const purchaseMovie = [
 		remote: ok,
 		instruction: {
 			image: false,
-			english: 'Movie Rental Price and Rental Period is shown.',
+			english:
+				'Movie Rental Price and Rental Period is shown.Press OK Button again ',
 			tamil: 'சரி பொத்தானை மீண்டும் அழுத்தவும்.',
 			sinhala: 'නැවත වාරයක් OK බොත්තම ඔබන්න.',
 		},
