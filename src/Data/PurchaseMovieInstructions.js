@@ -41,11 +41,10 @@ export const purchaseMovie = [
 		instruction: {
 			image: false,
 			english:
-				'Highlighted at the middle of menu items is the currently focused. \n Menu item Use < or > buttons to navigate across Main Menu items until MOVIES is highlighted.',
+				'Highlighted at the middle of menu items is the currently focused Menu item.                                         Use < or > buttons to navigate across Main Menu items until MOVIES is highlighted.',
 			tamil:
 				'மெனு உருப்படிகளின் நடுவில் முன்னிலைப்படுத்தப்பட்டுள்ளது தற்போது கவனம் செலுத்திய மெனு உருப்படி.',
-			sinhala: `දැනට අවධානය යොමු වී  ඇති මෙනු අයිතමය ප්‍රධාන මෙනුවේ මැදින් ඉස්මතු වී පෙනේ.
-			MOVIES ඉස්මතු වන තෙක් ප්‍රධාන මෙනු අයිතම හරහා සැරිසැරීමට < හෝ > බොත්තම් භාවිතා කරන්න.`,
+			sinhala: `දැනට අවධානය යොමු වී  ඇති මෙනු අයිතමය ප්‍රධාන මෙනුවේ මැදින් ඉස්මතු වී පෙනේ.                                          MOVIES ඉස්මතු වන තෙක් ප්‍රධාන මෙනු අයිතම හරහා සැරිසැරීමට < හෝ > බොත්තම් භාවිතා කරන්න.`,
 		},
 	},
 	{
@@ -65,22 +64,22 @@ export const purchaseMovie = [
 		tv: tv_5_71,
 		instruction: {
 			image: false,
-			english: `Movie Catelogue is displayed with NEW ARRIVALS highlighted in the TOP LEFT MENU and MOVIES CAROUSEL below showing newly added movies as movie posters`,
+			english: `Movie Catelogue is displayed with NEW ARRIVALS highlighted in the TOP LEFT MENU and MOVIES CAROUSEL below showing newly added movies as movie posters.`,
 			tamil:
 				'மேல் இடது மெனு மற்றும் மூவி கொணர்வி ஆகியவற்றில் சிறப்பிக்கப்பட்டுள்ள புதிய வருகைகளுடன் திரைப்பட பட்டியல் காட்டப்படும், புதிதாக சேர்க்கப்பட்ட அனைத்து திரைப்படங்களையும் திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது',
 			sinhala:
-				'ඉහළ වම් මෙනුවෙහි NEW ARRIVALS ඉස්මතු කරමින් චිත්‍රපට නාමාවලිය ප්‍රදර්ශනය කෙරෙන අතර පහලින් කැරූසලයේ (Carousel) අලුතින් එකතු කරන ලද චිත්‍රපට චිත්‍රපට පෝස්ටර් ලෙස පෙන්වයි',
+				'ඉහළ වම් මෙනුවෙහි NEW ARRIVALS ඉස්මතු කරමින් චිත්‍රපට නාමාවලිය ප්‍රදර්ශනය කෙරෙන අතර පහලින් කැරූසලයේ (Carousel) අලුතින් එකතු කරන ලද චිත්‍රපට චිත්‍රපට පෝස්ටර් ලෙස පෙන්වයි.',
 		},
 	},
 	{
 		tv: tv_5_2_71,
 		instruction: {
 			image: false,
-			english: `MOVIE DESCRIPTION window on the Top Right Corner shows brief description of the highlighted movie`,
+			english: `MOVIE DESCRIPTION window on the Top Right Corner shows brief description of the highlighted movie.`,
 			tamil:
 				'மேல் இடது மெனு மற்றும் மூவி கொணர்வி ஆகியவற்றில் சிறப்பிக்கப்பட்டுள்ள புதிய வருகைகளுடன் திரைப்பட பட்டியல் காட்டப்படும், புதிதாக சேர்க்கப்பட்ட அனைத்து திரைப்படங்களையும் திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது',
 			sinhala:
-				'ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් පෙන්වයි',
+				'ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් පෙන්වයි.',
 		},
 	},
 	{
@@ -102,11 +101,11 @@ export const purchaseMovie = [
 		instruction: {
 			image: false,
 			english:
-				'Movie Catalogue is displayed with SINHALA highlighted in the Top Left Menu and carousel below showing list of genres such as FAMILY, COMEDY, CLASSIC etc. as further categories of Sinhala Language. Use < or > buttons to browse across carousel to highlight your desired movie in the middle of carousel.',
+				'Movie Catalogue is displayed with SINHALA highlighted in the Top Left Menu and carousel below showing list of genres such as FAMILY, COMEDY, CLASSIC etc. as further categories of Sinhala Language.                                                   Use < or > buttons to browse across carousel to highlight your desired movie in the middle of carousel.',
 			tamil:
 				'மூவி வகைகளை அடிப்படையாகக் கொண்ட சிங்கள மொழி திரைப்படங்களின் மேலும் வகைகளாக FAMILY, COMEDY, CLASSIC போன்ற வகைகளின் பட்டியலைக் காட்டும் மேல் இடது மெனுவில் சிறப்பிக்கப்பட்ட சின்ஹாலா மற்றும் கொணர்வி மூலம் திரைப்பட பட்டியல் காட்டப்படும்.கொணர்விக்கு நடுவில் நீங்கள் விரும்பிய திரைப்படத்தை முன்னிலைப்படுத்த கொணர்வி முழுவதும் உலாவ <அல்லது> பொத்தான்களைப் பயன்படுத்தவும்.',
 			sinhala:
-				'ඉහළ වම් මෙනුවේ SINHALA ඉස්මතු වූ විට, සිංහල භාෂා චිත්‍රපට තවදුරටත් වර්ගීකරණය කිරීම සඳහා FAMILY, COMEDY, CLASSIC (පවුල, ප්‍රහසන, සම්භාව්‍ය) වැනි ප්‍රභේද ලැයිස්තුවක් පහත කැරූසලයේ ප්‍රදර්ශනය කෙරේ.කැරූසලය මධ්‍යයේ ඔබ කැමති චිත්‍රපටය ඉස්මතු කිරීමට චිත්‍රපට කැරූසලය හරහා සැරිසැරීමට < හෝ > බොත්තම් භාවිතා කරන්න.',
+				'ඉහළ වම් මෙනුවේ SINHALA ඉස්මතු වූ විට, සිංහල භාෂා චිත්‍රපට තවදුරටත් වර්ගීකරණය කිරීම සඳහා FAMILY, COMEDY, CLASSIC (පවුල, ප්‍රහසන, සම්භාව්‍ය) වැනි ප්‍රභේද ලැයිස්තුවක් පහත කැරූසලයේ ප්‍රදර්ශනය කෙරේ.                                                        කැරූසලය මධ්‍යයේ ඔබ කැමති චිත්‍රපටය ඉස්මතු කිරීමට චිත්‍රපට කැරූසලය හරහා සැරිසැරීමට < හෝ > බොත්තම් භාවිතා කරන්න.',
 		},
 	},
 	{
@@ -128,11 +127,11 @@ export const purchaseMovie = [
 		instruction: {
 			image: false,
 			english:
-				'Movie Catalogue is displayed with FAMILY highlighted in the Top Left Menu and carousel below showing movies under FAMILY genre.      MOVIE DESCRIPTION window on the Top Right Corner shows brief description of the movie highlighted in the carousel',
+				'Movie Catalogue is displayed with FAMILY highlighted in the Top Left Menu and carousel below showing movies under FAMILY genre.                                             MOVIE DESCRIPTION window on the Top Right Corner shows brief description of the movie highlighted in the carousel',
 			tamil:
 				'மேல் இடது மெனுவில் சிறப்பிக்கப்பட்ட கிளாசிக் மற்றும் கீழே கொணர்வி மூலம் மூவி பட்டியல் காட்டப்படும், கிளாசிக் வகையின் கீழ் திரைப்படங்களை திரைப்பட சுவரொட்டிகளாகக் காட்டுகிறது மேல் வலது மூலையில் உள்ள திரைப்பட விவரம் சாளரம் கொணர்வியில் சிறப்பிக்கப்பட்ட திரைப்படத்தின் சுருக்கமான விளக்கத்தைக் காட்டுகிறது',
 			sinhala:
-				'ඉහළ වම් මෙනුවෙහි FAMILY ඉස්මතු කරමින් චිත්‍රපට නාමාවලිය ප්‍රදර්ශනය කෙරෙන අතර පහලින් කැරූසලයේ FAMILY  ප්‍රභේදය යටතේ ඇති චිත්‍රපට චිත්‍රපට පෝස්ටර් ලෙස පෙන්වයි.     කැරූසලයේ ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව පෙන්වයි',
+				'ඉහළ වම් මෙනුවෙහි FAMILY ඉස්මතු කරමින් චිත්‍රපට නාමාවලිය ප්‍රදර්ශනය කෙරෙන අතර පහලින් කැරූසලයේ FAMILY  ප්‍රභේදය යටතේ ඇති චිත්‍රපට චිත්‍රපට පෝස්ටර් ලෙස පෙන්වයි.                                                      කැරූසලයේ ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව පෙන්වයි',
 		},
 	},
 	{
@@ -166,11 +165,11 @@ export const purchaseMovie = [
 		instruction: {
 			image: false,
 			english:
-				'Synopsis of the highlighted movie is displayed in the bottom right MOVIE DESCRIPTION WINDOW on the Top Right Corner shows brief description of the movie, Rental Price and Rental Period',
+				'Synopsis of the highlighted movie is displayed in the bottom right.                                               MOVIE DESCRIPTION WINDOW on the Top Right Corner shows brief description of the movie, Rental Price and Rental Period',
 			tamil:
 				'மேல் வலது மூலையில் உள்ள திரைப்பட விவரம் சாளரம் சிறப்பம்சமாகக் காட்டப்பட்ட திரைப்படத்தின் சுருக்கமான விளக்கத்தைக் காட்டுகிறது திரைப்பட வாடகை விலை மற்றும் வாடகை காலம் மேல் வலது மூலையில் காட்டப்பட்டுள்ளது',
 			sinhala:
-				'ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව පෙන්වන අතර චිත්‍රපටයේ සාරාංශය පහල දකුණු කෙළවරේ පෙන්වයි චිත්‍රපටයේ මිල සහ නැරඹීමට ඇති කාල සීමාව ඉහළ දකුණු කෙළවරේ දක්වා ඇත.',
+				'ඉස්මතු කළ චිත්‍රපටය පිළිබඳ කෙටි විස්තරයක් ඉහළ දකුණු කෙළවරේ ඇති චිත්‍රපට විස්තර කවුළුව පෙන්වන අතර චිත්‍රපටයේ සාරාංශය පහල දකුණු කෙළවරේ පෙන්වයි.                                                     චිත්‍රපටයේ මිල සහ නැරඹීමට ඇති කාල සීමාව ඉහළ දකුණු කෙළවරේ දක්වා ඇත.',
 		},
 	},
 	{
@@ -192,7 +191,7 @@ export const purchaseMovie = [
 				'Movie Rental Price and Rental Period is shown.   Press OK Button again ',
 			tamil: 'சரி பொத்தானை மீண்டும் அழுத்தவும்.',
 			sinhala:
-				'චිත්‍රපටයේ මිල සහ නැරඹීමට ඇති කාල සීමාව පෙන්වා ඇත.     නැවත වාරයක් OK බොත්තම ඔබන්න',
+				'චිත්‍රපටයේ මිල සහ නැරඹීමට ඇති කාල සීමාව පෙන්වා ඇත.                 නැවත වාරයක් OK බොත්තම ඔබන්න',
 		},
 	},
 	{
