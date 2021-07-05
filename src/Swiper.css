@@ -129,14 +129,14 @@
 }
 
 .type1-tv {
-	height: 80%;
+	height: 95%;
 }
 .type2-tv {
-	height: 80%;
+	height: 90%;
 }
 
 .type1-remote {
 	object-fit: cover;
-	height: 90%;
+	height: 95%;
 	width: 100%;
 }
