@@ -6,12 +6,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 function App() {
 	return (
 		<div className="App">
-			<Router>
+			<Router basename={'/simulator'}>
 				<Switch>
 					<Route exact path="/">
 						<Start />
 					</Route>
-					<Route exact path="/instructions">
+					<Route path="/instructions">
 						<Instruction />
 					</Route>
 				</Switch>

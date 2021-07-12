@@ -107,7 +107,7 @@
 }
 
 .tv-container-1 {
-	width: 65%;
+	width: 67%;
 	margin-top: 1.5em;
 	display: flex;
 	align-items: center;
@@ -124,8 +124,9 @@
 }
 
 .remote-container-1 {
-	width: 30%;
+	width: 25%;
 	margin-top: 2em;
+	margin-right: 8%;
 }
 
 .type1-tv {
